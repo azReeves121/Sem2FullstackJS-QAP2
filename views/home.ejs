@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <h1>Welcome to Abdul's Quiz!</h1>
+    <% if (streak > 0) { %>
+    <p>Your last streak: <%= streak %> correct answers</p>
+    <% } else { %>
+    <p>No streak....For now</p>
+    <% } %>
+    <a href="/quiz">Start New Quiz</a>
+    <a href="/leaderboard">View Leaderboard</a>
+  </body>
+</html>
